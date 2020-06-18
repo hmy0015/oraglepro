@@ -63,8 +63,4 @@ public class PhoneVo {
 	public String toString() {
 		return "PhoneVo [personID=" + personID + ", name=" + name + ", hp=" + hp + ", company=" + company + "]";
 	}
-	
-	public void showInfo() {
-		System.out.println(personID + ". " + name + "  " + hp + "  " + company);
-	}
 }
